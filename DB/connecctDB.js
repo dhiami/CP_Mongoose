@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 const connectdb=()=>{
-    mongoose.connect('mongodb://localhost/pupildata',()=>{
+    mongoose.connect('mongodb://localhost/persondata',()=>{
         try{
             console.log('database is connected')
         }catch{
