@@ -4,7 +4,7 @@ const connectdb=()=>{
         try{
             console.log('database is connected')
         }catch{
-            console.log('database is not connected sorry')
+            console.log('database is not connected ')
         }
     })
 }
